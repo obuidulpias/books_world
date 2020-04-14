@@ -3,7 +3,7 @@
         <ul>
             <li><span class="glyphicon glyphicon-time" aria-hidden="true"></span>Free and Fast Delivery</li>
             <li><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Free shipping On all orders</li>
-            <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">booksworld@gmail.com</a></li>
+            <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">mobileshop@gmail.com</a></li>
         </ul>
     </div>
 </div>
@@ -12,7 +12,7 @@
 <div class="header-bot">
     <div class="container">
         <div class="col-md-3 header-left">
-            <h1><a href="{{ url('/') }}"><span>B</span>ooks World</a></h1>
+            <h1><a href="{{ url('/') }}"><span>M</span>obile Shop</a></h1>
         </div>
         <div class="col-md-6 header-middle">
             <form>
@@ -21,16 +21,7 @@
                                 this.value = 'Search';
                             }" required="">
                 </div>
-                <div class="section_room">
-                    <select id="country" onchange="change_country(this.value)" class="frm-field required">
-                        <option value="null">All categories</option>
-                        <option value="null"></option>     
-                        <option value="AX"></option>
-                        <option value="AX"></option>
-                        <option value="AX"></option>
-                        <option value="AX"></option>
-                    </select>
-                </div>
+               
                 <div class="sear-sub">
                     <input type="submit" value=" ">
                 </div>
